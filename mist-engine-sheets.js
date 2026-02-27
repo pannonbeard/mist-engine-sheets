@@ -17,7 +17,7 @@ Hooks.once("ready", () => {
     static get defaultOptions() {
       return foundry.utils.mergeObject(super.defaultOptions, {
         classes: ["otherscape"],
-        template: "modules/mist-engin-sheets/templates/otherscape/pc-sheet.hbs",
+        template: "modules/mist-engine-sheets/templates/otherscape/pc-sheet.hbs",
         width: 780,
         height: 660,
         tabs: [{
