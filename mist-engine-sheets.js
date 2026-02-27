@@ -39,47 +39,9 @@ Hooks.once("ready", () => {
         }
     }
 
-    static DEFAULT_OPTIONS = {
-        classes: ['mist-engine', 'sheet', 'actor', 'otherscape-character'],
-        tag: 'form',
-        position: {
-            width: 1100,
-            height: 800
-        },
-        actions: {
-            createBackpackItem: this.#handleCreateBackpackItem,
-            deleteBackpackItem: this.#handleDeleteBackpackItem,
-            clickRoll: this.#handleClickRoll,
-            toggleToBurn: this.#handleToggleToBurn,
-            createQuintessence: this.#handleCreateQuintessence,
-            deleteQuintessence: this.#handleDeleteQuintessence,
-            createFellowship: this.#handleCreateFellowship,
-            deleteFellowship: this.#handleDeleteFellowship,
-            removeFellowshipThemecard: this.#handleRemoveFellowshipThemecard,
-            assignFellowshipThemecard: this.#handleAssignFellowshipThemecard,
-            clickedCustomBackground: this.#handleClickedCustomBackground,
-            clickedRemoveCustomBackground: this.#handleRemoveCustomBackground,
-            clickedCustomBackgroundEditor: this.#handleClickedCustomBackgroundEditor,
-            openThemekitSelection: this.#handleOpenThemekitSelection,
-            openThemekitCharacterApp: this.#handleOpenThemekitCharacterApp,
-            removeThemekit: this.#handleRemoveThemekit
-        },
-        form: {
-            submitOnChange: true
-        },
-        actor: {
-            type: 'character'
-        },
-        dragDrop: [{
-            dragSelector: '[draggable="true"]',
-            dropSelector: '.mist-engine.actor'
-        }],
-        window: {
-            resizable: true,
-            controls: [
-            ]
-        }
-    }
+    static DEFAULT_OPTIONS = foundry.utils.mergeObject(super.DEFAULT_OPTIONS, {
+      classes: ['otherscape']
+    })
   }
 
 
