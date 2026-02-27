@@ -12,7 +12,9 @@
   "styles": ["mist-engine-sheets.css"],
   "manifest": "https://raw.githubusercontent.com/pannonbeard/mist-engine-sheets/refs/heads/main/module.json",
   "download": "https://github.com/pannonbeard/mist-engine-sheets/archive/refs/heads/main.zip",
-  "dependencies": [
-    { "id": "mist-engine-fvt", "type": "system" }
-  ]
+  "relationships": {
+    "systems": [
+      { "id": "mist-engine-fvtt", "type": "system", "compatibility": {} }
+    ]
+  }
 }
