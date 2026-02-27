@@ -37,7 +37,7 @@ Hooks.once("ready", () => {
 
   // ── Register sheet ─────────────────────────────────────────────────────
   Actors.registerSheet("otherscape", OtherscapeSheet, {
-    types: ["pc"],
+    types: ["litm-character"],
     makeDefault: false,
     label: "Otherscape"
   });
