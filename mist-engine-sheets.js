@@ -40,7 +40,7 @@ Hooks.once("ready", () => {
     }
 
     static DEFAULT_OPTIONS = foundry.utils.mergeObject(super.DEFAULT_OPTIONS, {
-      classes: ['otherscape']
+      classes: ['mist-engine', 'sheet', 'actor', 'litm-character', 'otherscape']
     })
   }
 
