@@ -5,7 +5,7 @@ Hooks.once("setup", () => {});
 Hooks.once("ready", () => {
    // ── Find base sheet class ──────────────────────────────────────────────
   const baseClass = Object.values(CONFIG.Actor.sheetClasses["litm-character"] ?? {})
-    .find(s => s.id.startsWith("mist-engine-ftt"))?.cls;
+    .find(s => s.id.startsWith("mist-engine-fvtt"))?.cls;
 
   if (!baseClass) {
     console.error("Mist Engine Sheets | Could not find the Mist Engine sheet class.");
