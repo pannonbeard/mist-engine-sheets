@@ -1,0 +1,18 @@
+{
+  "id": "mist-engine-sheets",
+  "title": "Mist Engine Sheets for City of Mist and Otherscape",
+  "description": "Adds character sheets theme for City of Mist and Otherscape.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "authors": [{ "name": "Panonbeard" }],
+  "esmodules": ["mist-engine-sheets.js"],
+  "styles": ["mist-engine-sheets.css"],
+  "manifest": "https://raw.githubusercontent.com/pannonbeard/mist-engine-sheets/refs/heads/main/module.json",
+  "download": "https://github.com/pannonbeard/mist-engine-sheets/archive/refs/heads/main.zip",
+  "dependencies": [
+    { "id": "mist-engine-fvt", "type": "system" }
+  ]
+}
