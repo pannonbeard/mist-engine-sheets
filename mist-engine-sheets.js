@@ -14,19 +14,29 @@ Hooks.once("ready", () => {
 
   // ── Sheet class ────────────────────────────────────────────────────────
   class OtherscapeSheet extends baseClass {
-    static get defaultOptions() {
-      return foundry.utils.mergeObject(super.defaultOptions, {
-        classes: ["otherscape"],
-        template: "modules/mist-engine-sheets/templates/otherscape/pc-sheet.hbs",
-        width: 780,
-        height: 660,
-        tabs: [{
-          navSelector: ".sheet-tabs",
-          contentSelector: ".sheet-body",
-          initial: "stats"
-        }],
-        resizable: true,
-      });
+    static PARTS = {
+        header: {
+            id: 'header',
+            template: 'systems/mist-engine-sheets/templates/parts/otherscape/character-header.hbs'
+        },
+        tabs: {
+            id: 'tabs',
+            template: 'templates/generic/tab-navigation.hbs',
+            classes: ["otherscape-character-sheet-tabs"]
+        },
+        character: {
+            id: 'character',
+            template: 'systems/mist-engine-sheets/templates/parts/otherscape/tab-character.hbs',
+            scrollable: ['']
+        },
+        biography: {
+            id: 'biography',
+            template: 'systems/mist-engine-sheets/templates/shared/tab-biography.hbs'
+        },
+        notes: {
+            id: 'notes',
+            template: 'systems/mist-engine-sheets/templates/shared/tab-notes.hbs'
+        }
     }
   }
 
