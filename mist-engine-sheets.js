@@ -17,7 +17,7 @@ Hooks.once("ready", () => {
     static PARTS = {
         header: {
             id: 'header',
-            template: 'systems/mist-engine-fvtt/templates/actor/parts/character-header.hbs'
+            template: 'module/mist-engine-sheets/templates/parts/otherscape/character-header.hbs'
         },
         tabs: {
             id: 'tabs',
