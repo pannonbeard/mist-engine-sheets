@@ -22,7 +22,7 @@ Hooks.once("ready", () => {
         tabs: {
             id: 'tabs',
             template: 'templates/generic/tab-navigation.hbs',
-            classes: ["litm-character-sheet-tabs"]
+            classes: ["otherscape-character-sheet-tabs"]
         },
         character: {
             id: 'character',
@@ -37,6 +37,12 @@ Hooks.once("ready", () => {
             id: 'notes',
             template: 'modules/mist-engine-sheets/templates/shared/tab-notes.hbs'
         }
+    }
+
+    static get defaultOptions() {
+      return foundry.utils.mergeObject(super.defaultOptions, {
+        classes: ["otherscape"],
+      });
     }
   }
 
