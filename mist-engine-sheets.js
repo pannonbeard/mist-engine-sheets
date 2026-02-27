@@ -17,25 +17,25 @@ Hooks.once("ready", () => {
     static PARTS = {
         header: {
             id: 'header',
-            template: 'modules/mist-engine-sheets/templates/parts/otherscape/character-header.hbs'
+            template: 'systems/mist-engine-fvtt/templates/actor/parts/character-header.hbs'
         },
         tabs: {
             id: 'tabs',
             template: 'templates/generic/tab-navigation.hbs',
-            classes: ["otherscape-character-sheet-tabs"]
+            classes: ["litm-character-sheet-tabs"]
         },
         character: {
             id: 'character',
-            template: 'modules/mist-engine-sheets/templates/parts/otherscape/tab-character.hbs',
+            template: 'systems/mist-engine-fvtt/templates/actor/parts/tab-litm-character.hbs',
             scrollable: ['']
         },
         biography: {
             id: 'biography',
-            template: 'modules/mist-engine-sheets/templates/shared/tab-biography.hbs'
+            template: 'systems/mist-engine-fvtt/templates/shared/tab-biography.hbs'
         },
         notes: {
             id: 'notes',
-            template: 'modules/mist-engine-sheets/templates/shared/tab-notes.hbs'
+            template: 'systems/mist-engine-fvtt/templates/shared/tab-notes.hbs'
         }
     }
   }
@@ -48,7 +48,7 @@ Hooks.once("ready", () => {
   // ── Register sheet ─────────────────────────────────────────────────────
   Actors.registerSheet("otherscape", OtherscapeSheet, {
     types: ["litm-character"],
-    makeDefault: false,
+    makeDefault: true,
     label: "Otherscape"
   });
 });
