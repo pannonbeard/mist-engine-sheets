@@ -17,7 +17,7 @@ Hooks.once("ready", () => {
     static PARTS = {
         header: {
             id: 'header',
-            template: 'module/mist-engine-sheets/templates/parts/otherscape/character-header.hbs'
+            template: 'modules/mist-engine-sheets/templates/parts/otherscape/character-header.hbs'
         },
         tabs: {
             id: 'tabs',
@@ -26,16 +26,16 @@ Hooks.once("ready", () => {
         },
         character: {
             id: 'character',
-            template: 'module/mist-engine-sheets/templates/parts/otherscape/tab-character.hbs',
+            template: 'modules/mist-engine-sheets/templates/parts/otherscape/tab-character.hbs',
             scrollable: ['']
         },
         biography: {
             id: 'biography',
-            template: 'module/mist-engine-sheets/templates/shared/tab-biography.hbs'
+            template: 'modules/mist-engine-sheets/templates/shared/tab-biography.hbs'
         },
         notes: {
             id: 'notes',
-            template: 'module/mist-engine-sheets/templates/shared/tab-notes.hbs'
+            template: 'modules/mist-engine-sheets/templates/shared/tab-notes.hbs'
         }
     }
   }
