@@ -1,11 +1,39 @@
-.otherscape{
+@layer module {
+  .otherscape{
+  
+  }
+  
+  .otherscape-character-sheet-tabs{
+    margin-left: 300px;
+  
+    &.edit-mode{
+      margin-left: 0;
+    }
+  }
 
-}
+  .container-themebook-with-border{
+    --theme-book-color: #6bff26;
+    border-image: none;
+    -moz-border-image: none;
+    -webkit-border-image: none;
+    -o-border-image: none;
 
-.otherscape-character-sheet-tabs{
-  margin-left: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--theme-book-color);
+    background: oklch(from black l c h / 0.5);
+    box-shadow: 0 0 15px var(--theme-book-color);
+  }
 
-  &.edit-mode{
-    margin-left: 0;
+  .theme-name {
+    background-image: none;
+    background-color: var(--theme-book-color);
+    margin: 0;
+    height: auto;
+    color: black;
+  }
+
+  .powertag-name{
+    color: white;
   }
 }
