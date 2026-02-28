@@ -1,3 +1,11 @@
 .otherscape{
-  
+
+}
+
+.otherscape-character-sheet-tabs{
+  margin-left: 300px;
+
+  &.edit-mode{
+    margin-left: 0;
+  }
 }
