@@ -1,0 +1,142 @@
+{
+  "folder": "bn0eGVgwAHqCGknn",
+  "name": "Loadout",
+  "type": "themebook",
+  "img": "systems/mist-engine-fvtt/assets/icons/item-themebook.svg",
+  "_id": "Q1EBi0NNegaH1WNS",
+  "system": {
+    "description": "",
+    "abandon": 0,
+    "improve": 0,
+    "milestone": 0,
+    "powertag1": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "powertag2": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "powertag3": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "powertag4": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "powertag5": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "powertag6": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "powertag7": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "powertag8": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "powertag9": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "powertag10": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "weaknesstag1": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "weaknesstag2": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "weaknesstag3": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "weaknesstag4": {
+      "burned": false,
+      "toBurn": false,
+      "planned": false,
+      "selected": false
+    },
+    "specialImprovements": [
+      {
+        "name": "",
+        "active": false,
+        "description": ""
+      },
+      {
+        "name": "",
+        "active": false,
+        "description": ""
+      },
+      {
+        "name": "",
+        "active": false,
+        "description": ""
+      },
+      {
+        "name": "",
+        "active": false,
+        "description": ""
+      },
+      {
+        "name": "",
+        "active": false,
+        "description": ""
+      }
+    ]
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dcz58ifVeYBJEd8f": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "mist-engine-fvtt",
+    "systemVersion": "13.7.2",
+    "createdTime": 1772246940664,
+    "modifiedTime": 1772246940664,
+    "lastModifiedBy": "dcz58ifVeYBJEd8f"
+  }
+}

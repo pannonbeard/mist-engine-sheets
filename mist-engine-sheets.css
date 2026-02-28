@@ -23,6 +23,7 @@
     border-color: var(--theme-book-color);
     background: oklch(from black l c h / 0.5);
     box-shadow: 0 0 15px var(--theme-book-color);
+    border-radius: 10px;
   }
 
   .theme-name {

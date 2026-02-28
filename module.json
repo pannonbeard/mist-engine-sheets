@@ -16,5 +16,19 @@
     "systems": [
       { "id": "mist-engine-fvtt", "type": "system", "compatibility": {} }
     ]
-  }
+  },
+  "packs": [
+    {
+      "name": "otherscape-themebooks",
+      "label": "Otherscape Themebooks",
+      "path": "packs/otherscape-themebooks",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "module": "mist-engine-sheets",
+      "flags": {}
+    }
+  ]
 }
