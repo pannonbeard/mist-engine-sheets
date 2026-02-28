@@ -21,8 +21,8 @@ Hooks.once("ready", () => {
         },
         tabs: {
             id: 'tabs',
-            template: 'templates/generic/tab-navigation.hbs',
-            classes: system.editMode ? ["otherscape-character-sheet-tabs edit-mode"] : ["otherscape-character-sheet-tabs"]
+            template: 'modules/mist-engine-sheets/templates/shared/tab-navigation.hbs',
+            classes: ["otherscape-character-sheet-tabs"]
         },
         character: {
             id: 'character',
